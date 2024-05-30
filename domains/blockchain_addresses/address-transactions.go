@@ -2,8 +2,8 @@ package blockchain_addresses
 
 import (
 	"context"
-	"onchainpay_sdk/types/requests"
-	"onchainpay_sdk/types/responses"
+	"github.com/onchainpay/go-sdk/types/requests"
+	"github.com/onchainpay/go-sdk/types/responses"
 )
 
 func (d *Domain) AddressTransactions(ctx context.Context, payload *requests.AddressTransactions) responses.BaseResponseGeneric[*[]responses.AddressTransaction] {

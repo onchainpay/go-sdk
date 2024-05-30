@@ -2,7 +2,7 @@ package orders
 
 import (
 	"context"
-	"onchainpay_sdk/types/responses"
+	"github.com/onchainpay/go-sdk/types/responses"
 )
 
 func (d *Domain) GetOrder(ctx context.Context, orderId string) responses.BaseResponseGeneric[*responses.Order] {

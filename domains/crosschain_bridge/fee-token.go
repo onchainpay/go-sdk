@@ -2,8 +2,8 @@ package crosschain_bridge
 
 import (
 	"context"
-	"onchainpay_sdk/types/requests"
-	"onchainpay_sdk/types/responses"
+	"github.com/onchainpay/go-sdk/types/requests"
+	"github.com/onchainpay/go-sdk/types/responses"
 )
 
 func (d *Domain) FeeToken(ctx context.Context, payload requests.CrosschainBridgeFeeToken) responses.BaseResponseGeneric[*responses.CrosschainBridgeFeeToken] {

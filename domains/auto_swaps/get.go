@@ -2,7 +2,7 @@ package auto_swaps
 
 import (
 	"context"
-	"onchainpay_sdk/types/responses"
+	"github.com/onchainpay/go-sdk/types/responses"
 )
 
 func (d *Domain) Get(ctx context.Context, autoSwapId string) responses.BaseResponseGeneric[*responses.AutoSwap] {

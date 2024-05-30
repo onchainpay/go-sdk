@@ -2,8 +2,8 @@ package orders
 
 import (
 	"context"
-	"onchainpay_sdk/types/requests"
-	"onchainpay_sdk/types/responses"
+	"github.com/onchainpay/go-sdk/types/requests"
+	"github.com/onchainpay/go-sdk/types/responses"
 )
 
 func (d *Domain) MakeOrder(ctx context.Context, payload requests.CreateOrder) responses.BaseResponseGeneric[*responses.CreateOrder] {

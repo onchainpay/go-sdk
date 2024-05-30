@@ -2,7 +2,7 @@ package crosschain_swap
 
 import (
 	"context"
-	"onchainpay_sdk/types/responses"
+	"github.com/onchainpay/go-sdk/types/responses"
 )
 
 func (d *Domain) Limit(ctx context.Context) responses.BaseResponseGeneric[*responses.CrosschainLimit] {

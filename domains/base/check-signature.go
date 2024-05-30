@@ -2,7 +2,7 @@ package base
 
 import (
 	"context"
-	"onchainpay_sdk/types/responses"
+	"github.com/onchainpay/go-sdk/types/responses"
 )
 
 func (d *Domain) CheckSignature(ctx context.Context) responses.BaseResponseGeneric[*responses.CheckSignResponse] {

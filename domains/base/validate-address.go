@@ -2,8 +2,8 @@ package base
 
 import (
 	"context"
-	"onchainpay_sdk/types/requests"
-	"onchainpay_sdk/types/responses"
+	"github.com/onchainpay/go-sdk/types/requests"
+	"github.com/onchainpay/go-sdk/types/responses"
 )
 
 func (d *Domain) ValidateAddress(ctx context.Context, payload requests.ValidateAddress) responses.BaseResponseGeneric[*responses.ValidateAddress] {

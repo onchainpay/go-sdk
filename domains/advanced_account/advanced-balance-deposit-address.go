@@ -2,8 +2,8 @@ package advanced_account
 
 import (
 	"context"
-	"onchainpay_sdk/types/requests"
-	"onchainpay_sdk/types/responses"
+	"github.com/onchainpay/go-sdk/types/requests"
+	"github.com/onchainpay/go-sdk/types/responses"
 )
 
 func (d *Domain) AdvancedBalanceDepositAddress(ctx context.Context, payload requests.AdvancedBalanceDepositAddress) responses.BaseResponseGeneric[*responses.AdvancedBalanceDepositAddress] {

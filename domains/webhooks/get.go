@@ -2,7 +2,7 @@ package webhooks
 
 import (
 	"context"
-	"onchainpay_sdk/types/responses"
+	"github.com/onchainpay/go-sdk/types/responses"
 )
 
 func (d *Domain) Get(ctx context.Context, webhookId string) responses.BaseResponseGeneric[*responses.Webhook] {

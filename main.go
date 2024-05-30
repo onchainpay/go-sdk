@@ -1,21 +1,21 @@
 package onchainpay_sdk
 
 import (
-	"onchainpay_sdk/domains/address_book"
-	"onchainpay_sdk/domains/advanced_account"
-	"onchainpay_sdk/domains/auto_swaps"
-	"onchainpay_sdk/domains/base"
-	"onchainpay_sdk/domains/blockchain_addresses"
-	"onchainpay_sdk/domains/crosschain_bridge"
-	"onchainpay_sdk/domains/crosschain_swap"
-	"onchainpay_sdk/domains/invoices"
-	"onchainpay_sdk/domains/orders"
-	"onchainpay_sdk/domains/orphans"
-	"onchainpay_sdk/domains/personal_addresses"
-	"onchainpay_sdk/domains/webhooks"
-	"onchainpay_sdk/domains/withdrawals"
-	"onchainpay_sdk/noncer"
-	"onchainpay_sdk/requester"
+	"github.com/onchainpay/go-sdk/domains/address_book"
+	"github.com/onchainpay/go-sdk/domains/advanced_account"
+	"github.com/onchainpay/go-sdk/domains/auto_swaps"
+	"github.com/onchainpay/go-sdk/domains/base"
+	"github.com/onchainpay/go-sdk/domains/blockchain_addresses"
+	"github.com/onchainpay/go-sdk/domains/crosschain_bridge"
+	"github.com/onchainpay/go-sdk/domains/crosschain_swap"
+	"github.com/onchainpay/go-sdk/domains/invoices"
+	"github.com/onchainpay/go-sdk/domains/orders"
+	"github.com/onchainpay/go-sdk/domains/orphans"
+	"github.com/onchainpay/go-sdk/domains/personal_addresses"
+	"github.com/onchainpay/go-sdk/domains/webhooks"
+	"github.com/onchainpay/go-sdk/domains/withdrawals"
+	"github.com/onchainpay/go-sdk/noncer"
+	"github.com/onchainpay/go-sdk/requester"
 )
 
 type Client struct {

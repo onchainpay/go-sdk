@@ -2,8 +2,8 @@ package address_book
 
 import (
 	"context"
-	"onchainpay_sdk/types/requests"
-	"onchainpay_sdk/types/responses"
+	"github.com/onchainpay/go-sdk/types/requests"
+	"github.com/onchainpay/go-sdk/types/responses"
 )
 
 func (d *Domain) Add(ctx context.Context, payload requests.AddAddressBook) responses.BaseResponseGeneric[*responses.AddressBookAddress] {

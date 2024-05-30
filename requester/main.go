@@ -1,6 +1,6 @@
 package requester
 
-import "onchainpay_sdk/noncer"
+import "github.com/onchainpay/go-sdk/noncer"
 
 type Requester struct {
 	publicKey string

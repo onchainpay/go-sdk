@@ -2,8 +2,8 @@ package invoices
 
 import (
 	"context"
-	"onchainpay_sdk/types/requests"
-	"onchainpay_sdk/types/responses"
+	"github.com/onchainpay/go-sdk/types/requests"
+	"github.com/onchainpay/go-sdk/types/responses"
 )
 
 func (d *Domain) GetInvoices(ctx context.Context, payload requests.GetInvoices) responses.BaseResponseGeneric[*responses.InvoicesList] {

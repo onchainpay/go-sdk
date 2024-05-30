@@ -2,14 +2,13 @@ package base
 
 import (
 	"context"
-	"onchainpay_sdk/types/requests"
-	"onchainpay_sdk/types/responses"
+	"github.com/onchainpay/go-sdk/types/responses"
 )
 
-func (d *Domain) PriceRate(ctx context.Context, payload requests.PriceRate) responses.BaseResponseGeneric[*string] {
+func (d *Domain) PriceRate(ctx context.Context, from, to string) responses.BaseResponseGeneric[*string] {
 	var res string
 
-	_res := d.requester.Request(ctx, "price-rate", payload.ToMap(), &res)
+	_res := d.requester.Request(ctx, "price-rate", map[string]string{"from": from, "to": to}, &res)
 
 	return responses.ConvertBase[*string](_res)
 }

@@ -2,7 +2,7 @@ package crosschain_bridge
 
 import (
 	"context"
-	"onchainpay_sdk/types/responses"
+	"github.com/onchainpay/go-sdk/types/responses"
 )
 
 func (d *Domain) Get(ctx context.Context, crosschainBridgeId string) responses.BaseResponseGeneric[*responses.CrosschainBridge] {

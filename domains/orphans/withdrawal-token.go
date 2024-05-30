@@ -2,7 +2,7 @@ package orphans
 
 import (
 	"context"
-	"onchainpay_sdk/types/responses"
+	"github.com/onchainpay/go-sdk/types/responses"
 )
 
 func (d *Domain) WithdrawalToken(ctx context.Context, orphanId string) responses.BaseResponseGeneric[*responses.OrphansWithdrawalToken] {

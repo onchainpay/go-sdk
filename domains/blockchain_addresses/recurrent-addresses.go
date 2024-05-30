@@ -2,7 +2,7 @@ package blockchain_addresses
 
 import (
 	"context"
-	"onchainpay_sdk/types/responses"
+	"github.com/onchainpay/go-sdk/types/responses"
 )
 
 func (d *Domain) RecurrentAddresses(ctx context.Context, advancedBalanceId string) responses.BaseResponseGeneric[*[]responses.RecurrentAddress] {

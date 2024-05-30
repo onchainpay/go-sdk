@@ -2,8 +2,8 @@ package orphans
 
 import (
 	"context"
-	"onchainpay_sdk/types/requests"
-	"onchainpay_sdk/types/responses"
+	"github.com/onchainpay/go-sdk/types/requests"
+	"github.com/onchainpay/go-sdk/types/responses"
 )
 
 func (d *Domain) Withdrawal(ctx context.Context, payload requests.OrphansWithdrawal) responses.BaseResponseGeneric[*responses.OrphanTransaction] {

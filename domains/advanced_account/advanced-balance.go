@@ -2,7 +2,7 @@ package advanced_account
 
 import (
 	"context"
-	"onchainpay_sdk/types/responses"
+	"github.com/onchainpay/go-sdk/types/responses"
 )
 
 func (d *Domain) AdvancedBalance(ctx context.Context, advancedBalanceId string) responses.BaseResponseGeneric[*responses.AdvancedBalance] {

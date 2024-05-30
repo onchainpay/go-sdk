@@ -1,6 +1,6 @@
 package orphans
 
-import "onchainpay_sdk/requester"
+import "github.com/onchainpay/go-sdk/requester"
 
 type Domain struct {
 	requester *requester.Requester
